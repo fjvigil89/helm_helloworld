@@ -1,0 +1,19 @@
+# Chart.yaml
+apiVersion: v2
+name: helloworld
+description: A simple Hello World application
+
+maintainers:
+  - name: Frank Vigil
+    url: https://github.com/fjvigil89
+type: application
+
+# This is the chart version.
+# The version will be automatically set by the build script in .github/workflows/tags.yml when a
+# new version of the app is released.
+version: v1.0.0
+
+# This is the version number of the application being deployed.
+# The version will be automatically set by the build script in .github/workflows/tags.yml when a
+# new version of the app is released.
+appVersion: v1.0.0

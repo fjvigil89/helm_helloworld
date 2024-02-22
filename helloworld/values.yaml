@@ -1,0 +1,9 @@
+# values.yaml
+replicaCount: 1
+image:
+  repository: helloworld
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 5000
