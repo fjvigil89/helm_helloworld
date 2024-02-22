@@ -4,7 +4,7 @@ name: helloworld
 description: A simple Hello World application
 dependencies:
 - name: helloworld
-  repository: "https://github.com/fjvigil89/helm_helloworld/helm/"
+  repository: "https://github.com/fjvigil89/helm_helloworld/helloworld"
 
 maintainers:
   - name: Frank Vigil
