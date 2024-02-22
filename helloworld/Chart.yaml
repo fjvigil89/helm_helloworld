@@ -2,6 +2,9 @@
 apiVersion: v2
 name: helloworld
 description: A simple Hello World application
+dependencies:
+- name: helloworld
+  repository: "https://github.com/fjvigil89/helm_helloworld/helm/"
 
 maintainers:
   - name: Frank Vigil
