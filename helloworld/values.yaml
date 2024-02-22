@@ -1,7 +1,7 @@
 # values.yaml
 replicaCount: 1
 image:
-  repository: helloworld
+  repository: fjvigil/helm_helloworld
   tag: latest
   pullPolicy: IfNotPresent
 service:
