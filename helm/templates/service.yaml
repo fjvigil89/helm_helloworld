@@ -12,4 +12,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    {{- include "helloworld.selectorLabels" . | nindent 4 }}
+    app: {{ include "helloworld.fullname" . }}
